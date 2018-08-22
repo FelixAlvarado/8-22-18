@@ -4,4 +4,22 @@ improvement over binary
 It works fort sorted arrays that are uniformly distributed. The process is similar to binary search, but instead of coculating the midpoint, it calculates position based on the targets value relative to other numbers in the array. 
  postition equation on flashcard
 
+ When would you want to use Promise.resolve()? 
+
+ When you already have a value, and want it "wrapped" in a promise 
+
+ Promise.revole(value) returns a resolved promist with a given value 
+
+ Explain how promise.all works 
+
+ It takes an interable filled with promises and resolves all of them. 
+
+ What happens when you pass a non-promise object in the iterable you pass to Promise.all? 
+
+ The object is wrapped in Promise.resolve 
+
+ What is Promise.race? 
+
+ Similar to Promise.all, but instead of wating for all of them to finish, waits for the first result (or error), and goes with it
+
  
