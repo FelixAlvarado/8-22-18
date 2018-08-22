@@ -45,4 +45,7 @@ It works fort sorted arrays that are uniformly distributed. The process is simil
 
  .childnoes returns texts nodes while .children doesn't. 
 
+ What is Diffie-Hellan key exchange? 
+
+ It establishes a shared secret between two parties that cna be used for secret communication for exchaning data over a public network. 
  
