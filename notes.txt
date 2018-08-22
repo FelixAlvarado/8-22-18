@@ -22,4 +22,27 @@ It works fort sorted arrays that are uniformly distributed. The process is simil
 
  Similar to Promise.all, but instead of wating for all of them to finish, waits for the first result (or error), and goes with it
 
+ What is DOM? 
+
+ Document Objet Model. According to DOM, every HTML tag is an object. Nested tages are called "children" of the enclosing one. Text inside a tag is an object. Nested tages are call "children" of the enclosing one. Text inside a tag is an object as well. 
+
+ DOM respresents HTML as a tree structure of tags. 
+
+ What kind of object is returned by .childNodes? 
+
+ A collection (of child nodes) 
+
+ Collections are a special kind of interable object that you can't use array methods on. 
+ can use ARrray.from(colelction) to make it a real array 
+
+ What are the two important properties of DOM collections? 
+
+ 1. We can use for..of to iterate over it. 
+
+ 2. Array methods won't work becuase it's not an array. 
+
+ What's the difference btween calling .childnodes and calling .children? 
+
+ .childnoes returns texts nodes while .children doesn't. 
+
  
