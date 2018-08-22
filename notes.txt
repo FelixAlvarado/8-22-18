@@ -1,0 +1,7 @@
+How does interpolation search work? 
+
+improvement over binary 
+It works fort sorted arrays that are uniformly distributed. The process is similar to binary search, but instead of coculating the midpoint, it calculates position based on the targets value relative to other numbers in the array. 
+ postition equation on flashcard
+
+ 
